@@ -1,0 +1,2 @@
+any thing iside api folder next will turn it into backend api endpoint 
+this is one of nextjs features is creating backend code 
