@@ -39,7 +39,7 @@ export async function getStaticPaths() {
     // fallback is required to tell next if we defined all paths ids or some of them
     //  if true next will handle coming requests paths ids
     // false then anything outside the paths array will be redirected to 404
-    fallback: false,
+    fallback: blocking,
     paths: meetups.map((element) => ({
       params: { meetupId: element._id.toString() },
     })),
